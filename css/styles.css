@@ -41,6 +41,7 @@ body {
     display: block;
     text-decoration: none;
     font-size: 1.25rem;
+    color: black;
   }
   
   form input,
@@ -65,7 +66,6 @@ body {
     text-transform: uppercase;
   }
   
-
   a:focus {
     outline: 5px solid black;
   }
@@ -91,7 +91,8 @@ body {
 }
 
  nav ul li a:hover{
-    text-decoration: underline;
+    background-color: black;
+    color:azure;
   }
 
  footer {
@@ -103,15 +104,17 @@ body {
  footer a {
     display: inline-block;
     position: relative;
+    color:black;
     text-decoration: none;
     top: -40px;
     left: 200px;
  }
 
  footer a:hover {
-     text-decoration: underline;
+    text-decoration: underline;
  }
 
  button:focus, button:hover {
-     text-decoration: underline;
+    text-decoration: underline;
  }
+
