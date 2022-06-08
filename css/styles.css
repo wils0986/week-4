@@ -118,3 +118,8 @@ body {
     text-decoration: underline;
  }
 
+#address {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+}
