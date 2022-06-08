@@ -1,0 +1,117 @@
+body {
+    font-family: 'Roboto', Helvetica, sans-serif;
+    background-color: azure;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: 'Stick No Bills', 'Roboto', Helvetica, sans-serif;
+  }
+  
+  .container {
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+  
+  img {
+    width: 100%;
+  }
+  
+  .main-nav ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .main-nav ul li {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .main-nav ul li a {
+    display: block;
+    text-decoration: none;
+    font-size: 1.25rem;
+  }
+  
+  form input,
+  form textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 1rem;
+    padding: .5rem 1rem;
+  }
+  
+  form textarea {
+    min-height: 150px;
+    max-height: 150px;
+    height: 150px;
+    resize: none;
+  }
+  
+  form button {
+    background: none;
+    border: 2px solid black;
+    padding: 1rem;
+    text-transform: uppercase;
+  }
+  
+
+  a:focus {
+    outline: 5px solid black;
+  }
+
+  .skip-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .skip-links a {
+    position: absolute;
+    top: -3em;
+    background-color: black;
+    color: white;
+    padding: .5em 1em;
+    font-weight: bold;
+  }
+
+.skip-links a:focus {
+    top: 0;
+    left: 650px;
+}
+
+ nav ul li a:hover{
+    text-decoration: underline;
+  }
+
+ footer {
+    display: block;
+    position: relative;
+    padding: 2rem 0;
+ }
+
+ footer a {
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+    top: -40px;
+    left: 200px;
+ }
+
+ footer a:hover {
+     text-decoration: underline;
+ }
+
+ button:focus, button:hover {
+     text-decoration: underline;
+ }
